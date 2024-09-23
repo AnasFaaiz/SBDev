@@ -1,0 +1,41 @@
+.formstyle {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .btn {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: grey;
+  }
+  
+  .textview {
+    width: 100%;
+    height: 60px;
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-color: black;
+    outline: none;
+  }
+  
+  #form1 {
+    margin-bottom: 20px;
+  }
+  
