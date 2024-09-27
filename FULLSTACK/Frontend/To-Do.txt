@@ -1,1 +1,5 @@
 
+Weather:
+
+1. DO css part for some decoration
+2. add extra features if possible.
