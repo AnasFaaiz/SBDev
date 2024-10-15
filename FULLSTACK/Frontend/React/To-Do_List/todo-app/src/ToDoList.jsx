@@ -1,66 +1,80 @@
 import React, { useState } from 'react'
 
 function ToDoList() {
-    
-    const [tasks, setTasks] = useState(["Study","coding","Play Games"]);
+
+    const [tasks, setTasks] = useState(["Study", "coding", "Play Games"]);
     const [newtasks, setNewTasks] = useState("");
-    
-    function handleInputChange(event){
+
+    function handleInputChange(event) {
         setNewTasks(event.target.value);
 
     }
 
-    function addTasks(){
+    function addTasks() {
+
+        if (newtasks.trim() !== "") {
+            setNewTasks(t => [...t, newtasks]);
+            setNewTasks("");
+        }
 
     }
-    function deleteTasks(index){
+    function deleteTasks(index) {
+
+        const updatedTasks = tasks.filter((_, i) => i !== index);
+        setTasks(updatedTasks);
+    }
+
+    function editTasks(index) {
+
+        if (index > 0) {
+            const updatedTasks = [...tasks];
+            [updatedTasks[index], updatedTasks[index - 1]] = [updatedTasks[index - 1], updatedTasks[index]];
+            setTasks(updatedTasks);
+        }
 
     }
 
-    function editTasks(){
+    function moveDownTasks() {
+
+        if (index < task.index)
+    }
+    function moveUpTasks() {
 
     }
 
-    function moveDownTasks(){
-
-    }
-    function moveUpTasks(){
-
-    }
-
-    return(
+    return (
         <div classname="to-do-list">
             <h1>ToDo List</h1>
             <div>
-                <input 
+                <input
                     type="text"
                     placeholder="Enter a tasks.... "
                     value={newtasks}
-                    onChange={handleInputChange}/>
+                    onChange={handleInputChange} />
 
-                    <button
-                        className="add-button" onclick={addTasks}>Add
-                    </button>
+                <button
+                    className="add-button" onclick={addTasks}>Add
+                </button>
             </div>
 
             <ol>
-                {tasks.map((task, index) => 
+                {tasks.map((task, index) =>
                     <li key={index}>
                         <span className="text">{tasks}</span>
                         <button
                             className="delete-button"
                             onclick={() => deleteTasks(index)}>
-                                Delete
+                            Delete
                         </button>
                         <button
                             className="move-button"
                             onclick={() => moveUpTasks(index)}>
-                                UP
+                            UP
                         </button>
                         <button
                             className="move-button"
                             onclick={() => moveDownTasks(index)}>
-                                Down
+                            Down
                         </button>
                     </li>
                 )}
