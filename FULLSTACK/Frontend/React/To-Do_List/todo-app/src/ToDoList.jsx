@@ -36,7 +36,9 @@ function ToDoList() {
 
     function moveDownTasks() {
 
-        if (index < task.index)
+        if (index < task.index){
+            
+        }
     }
     function moveUpTasks() {
 
