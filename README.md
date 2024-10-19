@@ -16,7 +16,7 @@ Summary of the Training:
     2. Css
     3. Js (basics)
     4. React Js (currently working)
-    5. Figma (for Prototype)
+    5. Figma (for Web designing)
 
 I have also started working on some small apps/websites using these Skills. Visit them:
 
