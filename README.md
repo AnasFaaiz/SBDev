@@ -2,11 +2,14 @@
 
 Hi Everyone!
 
-        SBDEV is also known as "SplitBit Developers". Splitbit is a web development company based in Hyderabad, India. I am also proud to be learning Web Development under the employees of that comapany. I made much progress with their help. I appreciate the opportunity which I got from them.
+        SBDEV is also known as "SplitBit Developers". Splitbit is a web development company based in Hyderabad, India.
+        I am also proud to be learning Web Development under the employees of that comapany. I made much progress
+        with their help. I appreciate the opportunity which I got from them.
 
 Summary of the Training:
 
-    I have started learning Web development with their help and I focus on learning frontend & Backend with variety of technology out in the world. The skills which I have acquired till now are :
+    I have started learning Web development with their help and I focus on learning frontend & Backend
+    with variety of technology out in the world. The skills which I have acquired till now are :
 
     1. Html
     2. Css
