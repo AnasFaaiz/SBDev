@@ -1,3 +1,4 @@
+THINGS TO DO:
 1. Calculator to be designed..
 2. '0' button to be streched upto 2 columns
 3. All buttons to work properly.
