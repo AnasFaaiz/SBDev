@@ -1,7 +1,6 @@
-Weather:
+Weather app:
 1. DO css part for some decoration
 2. Add extra features if possible.
 
 React:
-1. Practise React
-2. Work on ToDo-List in React
+1. Todo app error
