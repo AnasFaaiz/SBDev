@@ -1,6 +1,6 @@
 // React Local File to run react even offline
 
 // // curl -L https://unpkg.com/react@18.2.0/umd/react.development.js > "D:\00-Projects\SBDev\FULLSTACK\Frontend\React\react.js"
-// // Invoke-WebRequest -Uri (link unavailable) -OutFile D:\00-Projects\SBDev\FULLSTACK\Frontend\React\react.js jjj
+// // Invoke-WebRequest -Uri (link unavailable) -OutFile D:\00-Projects\SBDev\FULLSTACK\Frontend\React\react.js 
 
 // Invoke-WebRequest -Uri https://unpkg.com/react-dom@18.2.0/umd/reactdom.development.js -OutFile D:\00-Projects\SBDev\FULLSTACK\Frontend\React\react-dom.js
