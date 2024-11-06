@@ -1,6 +1,15 @@
-Weather app:
-1. DO css part for some decoration
-2. Add extra features if possible.
+HTML-CSS-JS:
+
+    Weather app:
+        1. DO css part for some decoration
+        2. Add extra features if possible.
 
 React:
-1. Todo app error
+
+    Todo-App:
+        1. Fix error
+        2. Add TimeTable. (scheduling your time)
+        3. Make it more attractive.
+    
+    Twitter-Clone:
+        1. Start working Slowly.
