@@ -29,6 +29,8 @@
 
         2. LMS Website: Designing LMS Website using Figma
            Project Link: SOON.......
+        3. EntreLink: Entreprenuer Networking Website
+           Project Link: Soon...
 
 # Project TimeLine:
 
